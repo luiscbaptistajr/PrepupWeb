@@ -66,7 +66,7 @@ function App() {
         <FadeInSection>
         <section className='hero-container py-14'>
           <div className='py-2.5 intro'>
-            <h2>Practice interviews anywhere, on the go!</h2>
+            <h2>Practice interviews anywhere, on the go</h2>
             <p className='body-text-sub'>Interviews may be daunting, but you&#39;ll never have to practice them alone.</p> 
             <p className='body-text-sub'>PrepUp is your inteview companion on-the-go!</p>
           </div>
