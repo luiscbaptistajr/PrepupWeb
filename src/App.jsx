@@ -48,7 +48,7 @@ function App() {
           </a>
         </div>
         
-        <div className='width-2/3 justify-end self-center'>
+        <div className='w-full lg:w-2/3 justify-end self-center'>
           <ul className='nav grid grid-flow-col gap-4 justify-stretch'>
             <li className='body-link nav'><a href="#features">Features</a></li>
             <li className='body-link nav'><a href="#team">The Team</a></li>
@@ -71,12 +71,12 @@ function App() {
             <p className='body-text-sub'>PrepUp is your inteview companion on-the-go!</p>
           </div>
           
-          <div className='w-full flex flex-wrap xl:flex-nowrap justify-center mt-15 relative right-10'>
+          <div className='w-full flex flex-wrap xl:flex-nowrap justify-center lg:mt-15 lg:relative lg:right-10'>
             <img src="./images/phone.png"  className="w-50 lg:w-1/3 flex-none relative right-21" alt="React logo" />
             <div className='self-start relative top-5'>
-              <h4 className='header-title-h4 pb-2'>Learn about PrepUp</h4>
+              <h4 className='header-title-h4 pb-2 text-left'>Learn about PrepUp</h4>
               {/* <img src="https://placehold.co/600x400" alt="" /> */}
-              <iframe width="620" height="420" src="https://www.youtube.com/embed/jsgmtHCwTFI?si=0ZZW2MtL8mxCJX00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="420" height="420" src="https://www.youtube.com/embed/jsgmtHCwTFI?si=0ZZW2MtL8mxCJX00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             
           </div>
@@ -98,7 +98,7 @@ function App() {
           </div>
 
           <div className='grid grid-rows-2 grid-flow-col gap-4 lg:flex justify-between'>
-            <img src="./images/JobFinder.svg" className="w-60" alt="Magnifying glass to find job" />
+            <img src="./images/JobFinder.svg" className="w-60 m-auto lg:m-0" alt="Magnifying glass to find job" />
             <div className='w-full col-start-1 self-center lg:w-1/2 lg:row-start-2 text-left'>
               <h3 className='header-title-h3'>Job Finder</h3>
               <p className='body-text-sub'>Quickly browse through lists of tailored job roles based on your past or current occupation.</p>
@@ -123,7 +123,7 @@ function App() {
           <h2>Meet Our Team</h2>
           <p className='py-10 body-text-sub'>Highly professional and capable  of running your business across all digital channels</p>
 
-          <div className='flex justify-center'>
+          <div className='hidden lg:flex justify-center'>
             
               <img src='./images/bts/PUBTS-01.jpg' className="w-80" alt="React logo" />
               <img src='./images/bts/PUBTS-02.jpg' className="w-80" alt="React logo" />
