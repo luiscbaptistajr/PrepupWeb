@@ -142,11 +142,12 @@ function App() {
 
         <FadeInSection>
         <section>
-          <h2 className='py-24'>Development Team</h2>
-
+          <h2 className='py-5 lg:py-24'>Development Team</h2>
+          
           <DevCard />
+          
 
-          <h2 className='py-24'>Design Team</h2>
+          <h2 className='py-5 lg:py-24'>Design Team</h2>
 
           <DesignerCard />
           
@@ -156,25 +157,22 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className='grid rid-row-1 grid-flow-row align-center lg:mt-24 lg:mb-15 lg:grid lg:grid-col-1 lg:grid-flow-col lg:gap-4 lg:align-center'>
+      <footer className='grid rid-row-1 py-5 grid-flow-row align-center lg:mt-24 lg:mb-15 lg:grid lg:grid-col-1 lg:grid-flow-col lg:gap-4 lg:align-center'>
+      {/* <footer className="py-5"> */}
         <div>
           <img src="./images/PrepUpLogo.svg" className="logo flex-auto" alt="PrepUp logo" />
           <p className="body-text-copy">&copy; 2024 PrepUp. All rights reserved.</p>
         </div>
         
-        <div>
+        <div className='py-5 lg:py-0'>
             <p className='body-text-p1 text-right'>Download Our Proposal Now!</p>
             <p className='body-text-p1 text-right'><small>Start preparing for future inteviews with Prep</small></p>
-          </div>
-        <div>
-          
-
-          <div>
-            <span className='downloadBtn'>
-              <a href="" download>Download</a></span>
-            {/* <a href="/" className=''>Download Proposal</a> */}
-          </div>
         </div>
+        
+        <div className='py-5 lg:py-0'>
+          <span className='downloadBtn'><a href="" download>Download</a></span>
+        </div>
+      
 
       </footer>
     </>

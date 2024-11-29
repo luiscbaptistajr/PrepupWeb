@@ -46,9 +46,9 @@ footer {
   align-items: center;
 
   .logo {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 100%;
+    width: 40%;
   }
 }
 
@@ -153,45 +153,44 @@ button:focus-visible {
 }
 
 .member-card {
-  display: flex;
-  flex-direction: row;
+  display: inherit;
+  /* flex-direction: row;
   justify-content: left;
   align-items: center;
-  position: relative;
+  position: relative; */
 }
 
 .card-detail {
   /* background-color: #1a1a1a; */
   text-align: left;
   border-radius: 34px;
-  display: flex;
-  padding: 1rem;
-  padding-left: 11rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  /* display: flex; */
+  padding: 2rem;
+  /* padding-left: 11rem; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: flex-start; */
   /* gap: 14px; */
-  flex: 1 0 0;
+  /* flex: 1 0 0; */
 
   /* display: flex; */
-  width: 89%;
+  /* width: 89%; */
   /* align-items: left; */
-  gap: 14px;
-  position: absolute;
-  left: 4rem;
+  /* gap: 14px; */
+  /* position: absolute;
+  left: 4rem; */
+  line-height: 1.5;
 }
 
 .card-profile {
-  width: 230px;
-  max-width: 100%;
-  position: relative;
-  z-index: 1;
+  margin: 0 auto;
+  width: 40%;
 }
 
 .social-link {
   display: flex;
   gap: 0.5rem;
-  align-items: self-end;
+  align-items: center;
 }
 
 .body-link {
@@ -236,15 +235,9 @@ p {
     line-height: 150%; /* 48px */
   }
 
-  &.body-text-p1 {
-    /* color: var(--PrepUp-Color-Palette-Default-App-Colors-Still-Black, #1b1b1b); */
-    /* Heading 2 (Medium) */
-    font-family: var(--font-family-maven);
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
+  /* &.body-text-p1 {
+    text-align: center;
+  } */
 
   &.body-text-p2 {
     /* color: var(--PrepUp-Color-Palette-Default-App-Colors-Still-Black, #1b1b1b); */
@@ -257,7 +250,18 @@ p {
   }
 
   &.body-text-copy {
-    text-align: left;
+    text-align: center;
+  }
+}
+footer {
+  p.body-text-p1 {
+    text-align: center;
+  }
+}
+
+.card-detail {
+  .body-text-p2 {
+    margin: 0.5rem 0;
   }
 }
 
@@ -349,6 +353,60 @@ p {
     }
   }
 
-  .img-manify {
+  .card-detail {
+    /* background-color: #1a1a1a; */
+    text-align: left;
+    border-radius: 34px;
+    display: flex;
+    padding: 1rem;
+    padding-left: 11rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 14px; */
+    flex: 1 0 0;
+
+    /* display: flex; */
+    width: 89%;
+    /* align-items: left; */
+    gap: 14px;
+    position: absolute;
+    left: 4rem;
+  }
+
+  .member-card {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+  }
+
+  .card-profile {
+    width: 230px;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  p {
+    &.body-text-p1 {
+      /* color: var(--PrepUp-Color-Palette-Default-App-Colors-Still-Black, #1b1b1b); */
+      /* Heading 2 (Medium) */
+      font-family: var(--font-family-maven);
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    &.body-text-copy {
+      text-align: left;
+    }
+  }
+
+  .social-link {
+    display: flex;
+    gap: 0.5rem;
+    align-items: self-end;
   }
 }

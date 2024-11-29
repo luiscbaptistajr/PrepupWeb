@@ -42,7 +42,8 @@ const Devcard = () => {
     return (
         
         // <div className="w-70 grid grid-rows-2 grid-flow-col gap-24 team-bg dev">
-        <div className="grid team-bg dev grid-flow-row xl:w-70 lg:grid-rows-2 lg:grid-flow-col gap-24">
+        // <div className="grid team-bg dev grid-flow-row xl:w-70 lg:grid-rows-2 lg:grid-flow-col gap-24">
+        <div className="grid grid-flow-row xl:w-70 lg:grid-rows-2 lg:grid-flow-col lg:gap-24">
         {
             devItems.map(({ cardPhoto, cardName, cardRoleDetails, cardJob, cardColor, linkedIn, github }, key) => (
                 <div className="member-card" key={key}>
