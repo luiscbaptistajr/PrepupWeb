@@ -2,7 +2,7 @@ const Devcard = () => {
     
     const devItems = [
         {
-            cardPhoto: '/images/profile/shun.png',
+            cardPhoto: 'images/profile/shun.png',
             cardName: 'Shunsaku Sugita',
             cardJob: 'Lead Full-Stack Developer',
             cardRoleDetails: '5 years experience as a backend engineer and 2 years experience as a salesperson in the tech industry.',
@@ -11,7 +11,7 @@ const Devcard = () => {
             github:'shunsaku-sugita',
         },
         {
-            cardPhoto: '/images/profile/khushal.png',
+            cardPhoto: 'images/profile/khushal.png',
             cardName: 'Khushal Khunt',
             cardJob: 'Full-Stack Developer',
             cardRoleDetails: 'I have 3 years of software development experience in mobile',
@@ -20,7 +20,7 @@ const Devcard = () => {
             github:'FTW-Khushal',
         },
         {
-            cardPhoto: '/images/profile/blanca.png',
+            cardPhoto: 'images/profile/blanca.png',
             cardName: 'Blanca Liliana Flores',
             cardJob: 'Front-End Developer',
             cardRoleDetails: 'I’m looking to not only improve my coding skills but also improve my understanding on UI/UX.',
@@ -29,7 +29,7 @@ const Devcard = () => {
             github:'Blanca-sf',
         },
         {
-            cardPhoto: '/images/profile/yohei.png',
+            cardPhoto: 'images/profile/yohei.png',
             cardName: 'Yohei Tarutani',
             cardJob: 'Front-End Developer',
             cardRoleDetails: 'I am pursuing my next career as a software developer(most probably a front-end developer)',
