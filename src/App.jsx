@@ -165,7 +165,7 @@ function App() {
       {/* <footer className="py-5"> */}
         <div>
           <img src="./images/PrepUpLogo.svg" className="logo flex-auto" alt="PrepUp logo" />
-          <p className="body-text-copy">&copy; 2024 PrepUp. All rights reserved.</p>
+          <p className="body-text-copy copy-001">&copy; 2024 PrepUp. All rights reserved.</p>
         </div>
         
         <div className='py-5 lg:py-0'>
@@ -175,7 +175,10 @@ function App() {
         
         <div className='py-5 lg:py-0'>
           <span className='downloadBtn'><a href="" download>Download</a></span>
+          
         </div>
+
+        <p className="body-text-copy copy-002">&copy; 2024 PrepUp. All rights reserved.</p>
       
 
       </footer>

@@ -314,6 +314,10 @@ footer {
   visibility: visible;
 }
 
+.copy-001 {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     /* color: #213547; */
@@ -416,5 +420,12 @@ footer {
     gap: 0.5rem;
     /* align-items: self-end; */
     align-items: stretch;
+  }
+
+  .copy-001 {
+    display: flex;
+  }
+  .copy-002 {
+    display: none;
   }
 }
