@@ -76,7 +76,7 @@ function App() {
             <div className='self-start relative top-5'>
               <h4 className='header-title-h4 pb-2 text-left'>Learn about PrepUp</h4>
               {/* <img src="https://placehold.co/600x400" alt="" /> */}
-              <iframe width="420" height="420" src="https://www.youtube.com/embed/jsgmtHCwTFI?si=0ZZW2MtL8mxCJX00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="100%" height="420" src="https://www.youtube.com/embed/jsgmtHCwTFI?si=0ZZW2MtL8mxCJX00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             
           </div>
@@ -135,6 +135,10 @@ function App() {
               <img src='./images/bts/PUBTS-09.jpg' className="w-80" alt="React logo" />
               <img src='./images/bts/PUBTS-11.jpg' className="w-80" alt="React logo" />
             
+          </div>
+
+          <div className="flex justify-center lg:hidden">
+            <img src='./images/bts/PUBTS-13.jpg' className="w-80" alt="React logo" />
           </div>
 
         </section>

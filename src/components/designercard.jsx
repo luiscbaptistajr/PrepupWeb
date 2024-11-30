@@ -30,7 +30,7 @@ const Designercard = () => {
             cardRoleDetails: '3 years of experience as a Social Media Graphic Designer. My responsibilities are to co-produce and co-lead the PrepUp design team to create the branding/UI/UX of a market-ready app.',
             cardColor: 'card-dark-yellow',
             linkedIn: "kyrilevangelista",
-            portfolio:'https://kyrillouis.online',
+            portfolio:'https://kyrillouis.ca',
             logo: "images/logo/kyril.svg"
         },
         {
