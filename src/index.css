@@ -99,7 +99,7 @@ button:focus-visible {
 
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   gap: 30px;
 }
@@ -242,7 +242,7 @@ p {
   &.body-text-p2 {
     /* color: var(--PrepUp-Color-Palette-Default-App-Colors-Still-Black, #1b1b1b); */
     /* Body Text (Regular) */
-    font-family: Muli;
+    font-family: var(--font-family-mulish);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -331,6 +331,10 @@ footer {
       padding: 0;
       width: 50%;
     }
+
+    p.body-text-p1 {
+      text-align: right;
+    }
   }
 
   /* .nav {
@@ -369,7 +373,7 @@ footer {
     /* display: flex; */
     width: 89%;
     /* align-items: left; */
-    gap: 14px;
+    /* gap: 14px; */
     position: absolute;
     left: 4rem;
   }
@@ -407,6 +411,7 @@ footer {
   .social-link {
     display: flex;
     gap: 0.5rem;
-    align-items: self-end;
+    /* align-items: self-end; */
+    align-items: stretch;
   }
 }
