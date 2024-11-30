@@ -138,7 +138,7 @@ function App() {
           </div>
 
           <div className="flex justify-center lg:hidden">
-            <img src='./images/bts/PUBTS-13.jpg' className="w-80" alt="React logo" />
+            <img src='./images/bts/PUBTS-13.jpg' className="w-full" alt="React logo" />
           </div>
 
         </section>

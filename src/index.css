@@ -185,6 +185,9 @@ button:focus-visible {
 .card-profile {
   margin: 0 auto;
   width: 40%;
+  position: relative;
+  top: 40px;
+  z-index: 1;
 }
 
 .social-link {
@@ -390,7 +393,7 @@ footer {
     width: 230px;
     max-width: 100%;
     position: relative;
-    z-index: 1;
+    top: 0;
   }
 
   p {
