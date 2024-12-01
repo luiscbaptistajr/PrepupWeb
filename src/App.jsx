@@ -75,16 +75,16 @@ function App() {
         <section className='hero-container py-14'>
           <div className='py-2.5 intro'>
             <h2>Practice interviews anywhere, on the go</h2>
-            <p className='body-text-sub'>Interviews may be daunting, but you&#39;ll never have to practice them alone.</p> 
-            <p className='body-text-sub'>PrepUp is your inteview companion on-the-go!</p>
+            <p className='body-text-sub w-2/3'>Interviews may be daunting, but you&#39;ll never have to practice them alone. PrepUp is your inteview companion on-the-go!</p> 
+            <p className='body-text-sub'></p>
           </div>
           
           <div className='w-full flex flex-wrap xl:flex-nowrap justify-center lg:mt-15 lg:relative lg:right-10'>
             <img src="./images/phone.png"  className="w-50 lg:w-1/3 flex-none relative right-21" alt="React logo" />
-            <div className='self-start relative top-5'>
+            <div className='self-start relative top-5 videoContainer'>
               <h4 className='header-title-h4 pb-2 text-left'>Learn about PrepUp</h4>
               {/* <img src="https://placehold.co/600x400" alt="" /> */}
-              <iframe width="100%" height="420" src="https://www.youtube.com/embed/jsgmtHCwTFI?si=0ZZW2MtL8mxCJX00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div className='videoFrame'><iframe src="https://www.youtube.com/embed/jsgmtHCwTFI?si=0ZZW2MtL8mxCJX00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
             </div>
             
           </div>
