@@ -72,7 +72,7 @@ const Gallery = () => {
               <div><img src='./images/bts/PUBTS-05.jpg' className="w-full" alt="React logo" /></div> */}
     
       const items = [
-        'images/bts/PUBTS-27.jpg', 
+        'images/bts/PUBTS-28.jpg', 
         'images/bts/PUBTS-26.jpg', 
         'images/bts/PUBTS-24.jpg', 
         'images/bts/PUBTS-23.jpg', 
@@ -80,12 +80,11 @@ const Gallery = () => {
         'images/bts/PUBTS-09.jpg',
         'images/bts/PUBTS-05.jpg',
         'images/bts/PUBTS-04.jpg',
-        'images/bts/PUBTS-03.jpg',
-        'images/bts/PUBTS-02.jpg'
+        'images/bts/PUBTS-01.jpg',
     ];
     
       return (
-        <div className='my-own-custom-container'>
+        <div>
             <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} infinite={true}>
             {items.map((item, index) => (
                     <div key={index} className='galleryItem' style={{ backgroundImage: `url(${(item)})` }}>

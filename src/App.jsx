@@ -60,7 +60,7 @@ function App() {
           <ul className='nav grid grid-flow-col gap-4 justify-stretch'>
             <li className='body-link nav'><a href="#features">Features</a></li>
             <li className='body-link nav'><a href="#team">The Team</a></li>
-            <li className='downloadBtn'><a href="" download>Download Proposal</a></li>
+            <li className='downloadBtn'><a href="" download>Download <span className='hidden lg:inline'>Proposal</span></a></li>
           </ul>
         </div>
         
@@ -130,9 +130,7 @@ function App() {
         <section className='py-10' id="team">
           <h2>Meet Our Team</h2>
           <p className='py-10 body-text-sub'>Highly professional and capable  of running your business across all digital channels</p>
-
           
-
           <Gallery />
 
         </section>
@@ -143,7 +141,6 @@ function App() {
           <h2 className='py-5 lg:py-24'>Development Team</h2>
           
           <DevCard />
-          
 
           <h2 className='py-5 lg:py-24'>Design Team</h2>
 
