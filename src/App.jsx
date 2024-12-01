@@ -163,16 +163,19 @@ function App() {
           </div> */}
 
           <Carousel responsive={responsive}>
-              <div><img src='./images/bts/PUBTS-14.jpg' className="w-full" alt="React logo" /></div>
-              <div><img src='./images/bts/PUBTS-01.jpg' className="w-full" alt="React logo" /></div>
+          <div><img src='./images/bts/PUBTS-24.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-09.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-06.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-11.jpg' className="w-full" alt="React logo" /></div>
               <div><img src='./images/bts/PUBTS-02.jpg' className="w-full" alt="React logo" /></div>
               <div><img src='./images/bts/PUBTS-03.jpg' className="w-full" alt="React logo" /></div>
               <div><img src='./images/bts/PUBTS-04.jpg' className="w-full" alt="React logo" /></div>
               <div><img src='./images/bts/PUBTS-05.jpg' className="w-full" alt="React logo" /></div>
-              <div><img src='./images/bts/PUBTS-06.jpg' className="w-full" alt="React logo" /></div>
+              
               <div><img src='./images/bts/PUBTS-07.jpg' className="w-full" alt="React logo" /></div>
-              <div><img src='./images/bts/PUBTS-09.jpg' className="w-full" alt="React logo" /></div>
-              <div><img src='./images/bts/PUBTS-11.jpg' className="w-full" alt="React logo" /></div>
+              
+              
+              <div><img src='./images/bts/PUBTS-01.jpg' className="w-full" alt="React logo" /></div>
               
           
           </Carousel>
