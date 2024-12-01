@@ -72,16 +72,16 @@ const Gallery = () => {
               <div><img src='./images/bts/PUBTS-05.jpg' className="w-full" alt="React logo" /></div> */}
     
       const items = [
-        '/images/bts/PUBTS-27.jpg', 
-        '/images/bts/PUBTS-26.jpg', 
-        '/images/bts/PUBTS-24.jpg', 
-        '/images/bts/PUBTS-23.jpg', 
-        '/images/bts/PUBTS-11.jpg',
-        '/images/bts/PUBTS-09.jpg',
-        '/images/bts/PUBTS-05.jpg',
-        '/images/bts/PUBTS-04.jpg',
-        '/images/bts/PUBTS-03.jpg',
-        '/images/bts/PUBTS-02.jpg'
+        'images/bts/PUBTS-27.jpg', 
+        'images/bts/PUBTS-26.jpg', 
+        'images/bts/PUBTS-24.jpg', 
+        'images/bts/PUBTS-23.jpg', 
+        'images/bts/PUBTS-11.jpg',
+        'images/bts/PUBTS-09.jpg',
+        'images/bts/PUBTS-05.jpg',
+        'images/bts/PUBTS-04.jpg',
+        'images/bts/PUBTS-03.jpg',
+        'images/bts/PUBTS-02.jpg'
     ];
     
       return (
