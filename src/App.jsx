@@ -9,6 +9,10 @@
 // import Image from './components/image'
 
 import React from 'react';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 import DevCard from './components/devcard';
 import DesignerCard from './components/designercard';
@@ -32,6 +36,26 @@ function FadeInSection(props) {
     </div>
   );
 }
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 9
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
+};
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -123,7 +147,8 @@ function App() {
           <h2>Meet Our Team</h2>
           <p className='py-10 body-text-sub'>Highly professional and capable  of running your business across all digital channels</p>
 
-          <div className='hidden lg:flex justify-center'>
+          {/* <div className='hidden lg:flex justify-center'> */}
+          {/* <div className='flex justify-center'>
             
               <img src='./images/bts/PUBTS-01.jpg' className="w-80" alt="React logo" />
               <img src='./images/bts/PUBTS-02.jpg' className="w-80" alt="React logo" />
@@ -135,10 +160,25 @@ function App() {
               <img src='./images/bts/PUBTS-09.jpg' className="w-80" alt="React logo" />
               <img src='./images/bts/PUBTS-11.jpg' className="w-80" alt="React logo" />
             
-          </div>
+          </div> */}
+
+          <Carousel responsive={responsive}>
+              <div><img src='./images/bts/PUBTS-14.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-01.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-02.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-03.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-04.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-05.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-06.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-07.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-09.jpg' className="w-full" alt="React logo" /></div>
+              <div><img src='./images/bts/PUBTS-11.jpg' className="w-full" alt="React logo" /></div>
+              
+          
+          </Carousel>
 
           <div className="flex justify-center lg:hidden">
-            <img src='./images/bts/PUBTS-13.jpg' className="w-full" alt="React logo" />
+            
           </div>
 
         </section>
