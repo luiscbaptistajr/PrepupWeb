@@ -57,7 +57,7 @@ function App() {
         <section className='hero-container py-14'>
           <div className='py-2.5 intro'>
             <h2>Practice interviews anywhere, on the go</h2>
-            <p className='body-text-sub w-full lg:w-2/3'>Interviews may be daunting, but you&#39;ll never have to practice them alone. PrepUp is your inteview companion on-the-go!</p> 
+            <p className='body-text-sub w-full lg:w-2/3'>Interviews may be daunting, but you&#39;ll never have to practice them alone. PrepUp is your interview companion on-the-go!</p> 
             <p className='body-text-sub'></p>
           </div>
           
