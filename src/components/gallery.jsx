@@ -1,5 +1,5 @@
 // import img001 from "/images/bts/PUBTS-27.jpg"
-import React from 'react';
+// import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
