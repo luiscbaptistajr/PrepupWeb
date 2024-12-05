@@ -1,20 +1,4 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import imgPhone from './assets/phone.svg'
-// import imgLogo from './images/PrepUpLogo.svg'
-// import imgJobFinder from './images/JobFinder.svg'
-// import imgInterviewSim from './images/InterviewSimulator.svg'
-// import imgStarMaster from './images/STARMaster.svg'
-// import viteLogo from '/vite.svg'
-// import Image from './components/image'
-
-
-
 import React from 'react';
-// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
-// import 'pure-react-carousel/dist/react-carousel.es.css';
-
-
 import DevCard from './components/devcard';
 import DesignerCard from './components/designercard';
 import Gallery from './components/gallery';
@@ -42,8 +26,6 @@ function FadeInSection(props) {
 
 
 function App() {
-  // const [count, setCount] = useState(0)
-  // const URI = window.location.origin;
 
   return (
     <>
@@ -75,7 +57,7 @@ function App() {
         <section className='hero-container py-14'>
           <div className='py-2.5 intro'>
             <h2>Practice interviews anywhere, on the go</h2>
-            <p className='body-text-sub w-2/3'>Interviews may be daunting, but you&#39;ll never have to practice them alone. PrepUp is your inteview companion on-the-go!</p> 
+            <p className='body-text-sub w-full lg:w-2/3'>Interviews may be daunting, but you&#39;ll never have to practice them alone. PrepUp is your inteview companion on-the-go!</p> 
             <p className='body-text-sub'></p>
           </div>
           
