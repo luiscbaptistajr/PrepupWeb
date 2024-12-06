@@ -42,7 +42,24 @@ h2 {
   font-size: clamp(1.5rem, 0.9444rem + 2.7778vw, 3.375rem);
 }
 
+header {
+  position: fixed;
+  z-index: 1;
+  background: var(--PrepUp-Color-Palette-Nifty-Nude-Disabled, #fff8f3);
+  margin: 0 auto;
+  padding: 0 24px;
+  top: 0;
+  width: 100%;
+}
+
+main {
+  padding: 0 24px;
+  margin-top: 80px;
+}
+
 footer {
+  padding-left: 24px;
+  padding-right: 24px;
   align-items: center;
 
   .logo {
@@ -358,7 +375,18 @@ iframe {
 }
 
 @media (min-width: 1280px) {
+  header {
+    position: inherit;
+    z-index: inherit;
+    background: var(--PrepUp-Color-Palette-Nifty-Nude-Disabled, #fff8f3);
+    margin: 0 auto;
+    padding: 0;
+    /* top: 0; */
+    width: 100%;
+  }
   footer {
+    padding-left: 0;
+    padding-right: 0;
     .logo {
       margin: 0;
       padding: 0;

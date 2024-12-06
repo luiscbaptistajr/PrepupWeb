@@ -42,7 +42,7 @@ function App() {
           <ul className='nav grid grid-flow-col gap-4 justify-stretch'>
             <li className='body-link nav'><a href="#features">Features</a></li>
             <li className='body-link nav'><a href="#team">The Team</a></li>
-            <li className='downloadBtn'><a href="" download>Download <span className='hidden lg:inline'>Proposal</span></a></li>
+            <li className='downloadBtn'><a href="https://drive.google.com/file/d/1QCQTDkHyMXtI5-XEHc2-dLPnI6iRFnQI/view?usp=sharing" target='_blank' download>Download <span className='hidden lg:inline'>Proposal</span></a></li>
           </ul>
         </div>
         
@@ -147,7 +147,7 @@ function App() {
         </div>
         
         <div className='py-5 lg:py-0'>
-          <span className='downloadBtn'><a href="" download>Download</a></span>
+          <span className='downloadBtn'><a href="https://drive.google.com/file/d/1QCQTDkHyMXtI5-XEHc2-dLPnI6iRFnQI/view?usp=sharing" target='_blank' download>Download</a></span>
           
         </div>
 
